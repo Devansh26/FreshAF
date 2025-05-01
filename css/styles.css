@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+header nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.hero {
+    position: relative;
+    background-image: url('https://images.unsplash.com/photo-1617137968428-09f86d2f66d5');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-text {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin: 0 0 1rem;
+}
+
+.hero button {
+    background: #f0e6d2;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 1rem;
+    background: #f9f9f9;
+}
+
+.feature-item {
+    text-align: center;
+    max-width: 150px;
+}
+
+.feature-item img {
+    height: 40px;
+    margin-bottom: 1rem;
+}
+
+.feature-item span {
+    display: block;
+    font-weight: 600;
+}
+
+.logo{
+    width: 4rem;
+}
